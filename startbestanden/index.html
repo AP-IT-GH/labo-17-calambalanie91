@@ -13,6 +13,9 @@
     <title>architectuur</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/form.js"></script>
+    <!-- <script type="module" src="./js/faq.js"></script>
+    <script type="module" src="./js/socials.js"></script> -->
   </head>
 
   <body>
@@ -90,63 +93,72 @@
       <section id="portfolio">
         <article class="portfolio-item">
           <a href="#" rel="noopener"
-            ><figure><img
-              src="assets/la-sheats.webp"
-              width="704px"
-              height="397px"
-              alt="foto van Sheats-Goldstein house"
-              title="Sheats-Goldstein house"
-          />
-          <figcaption>&copy; VHF</figcaption>
-        </figure></a>  
-        <h2>Sheats - Goldstein House</h2>
+            ><figure>
+              <img
+                src="assets/la-sheats.webp"
+                width="704px"
+                height="397px"
+                alt="foto van Sheats-Goldstein house"
+                title="Sheats-Goldstein house"
+              />
+              <figcaption>&copy; VHF</figcaption>
+            </figure></a
+          >
+          <h2>Sheats - Goldstein House</h2>
           <p>John Lautner - 1963</p>
         </article>
         <article class="portfolio-item">
           <a href="#" rel="noopener"
-            ><figure><img
-              src="assets/la-stahl.webp"
-              width="704px"
-              height="397px"
-              alt="foto van Stahl house"
-              title="Stahl house"
-          />
-          <figcaption>&copy; Julius Shulman</figcaption>
-        </figure></a>
+            ><figure>
+              <img
+                src="assets/la-stahl.webp"
+                width="704px"
+                height="397px"
+                alt="foto van Stahl house"
+                title="Stahl house"
+              />
+              <figcaption>&copy; Julius Shulman</figcaption>
+            </figure></a
+          >
           <h2>Stahl House</h2>
           <p>Pierre Koenig - 1959</p>
         </article>
         <article class="portfolio-item">
           <a href="#" rel="noopener"
-            ><figure><img
-              src="assets/la-wright.webp"
-              width="704px"
-              height="397px"
-              alt="foto van Ennis house"
-              title="Ennis house"
-          />
-          <figcaption>&copy; Kirk McKoy</figcaption>
-        </figure></a>
-        <h2>Ennis House</h2>
+            ><figure>
+              <img
+                src="assets/la-wright.webp"
+                width="704px"
+                height="397px"
+                alt="foto van Ennis house"
+                title="Ennis house"
+              />
+              <figcaption>&copy; Kirk McKoy</figcaption>
+            </figure></a
+          >
+          <h2>Ennis House</h2>
           <p>Frank Lloyd Wright - 1924</p>
         </article>
         <article class="portfolio-item">
           <a href="#" rel="noopener"
-            ><figure><img
-              src="assets/la-lovell.webp"
-              width="704px"
-              height="397px"
-              alt="foto van Lovell Health house"
-              title="Lovell Health house"
-          />
-          <figcaption>&copy; Julius Shulman</figcaption>
-        </figure></a>
-        <h2>Lovell Health House</h2>
+            ><figure>
+              <img
+                src="assets/la-lovell.webp"
+                width="704px"
+                height="397px"
+                alt="foto van Lovell Health house"
+                title="Lovell Health house"
+              />
+              <figcaption>&copy; Julius Shulman</figcaption>
+            </figure></a
+          >
+          <h2>Lovell Health House</h2>
           <p>Richard Neutra - 1929</p>
         </article>
         <article class="portfolio-item">
-          <a href="#" rel="noopener"
-            ><figure><img
+          <!-- <a href="#" rel="noopener"
+            >
+            <figure><img
               src="assets/la-schindler.webp"
               width="704px"
               height="397px"
@@ -155,23 +167,38 @@
           /></a>
           <h2>Schindler House</h2>
           <p>Rudolph Schindler - 1922</p>
-          <figcaption>&copy; Studio Schimpf</figcaption>
-        </figure>
+          <figcaption>&copy; Studio Schimpf</figcaption></figure> -->
         </article>
         <article class="portfolio-item">
           <a href="#" rel="noopener"
-            ><figure><img
-              src="assets/la-eames.webp"
-              width="704px"
-              height="397px"
-              alt="foto van Eames house"
-              title="Eames house"
-          />
-          <figcaption>&copy; Eames Foundation</figcaption>
-        </figure></a>
-        <h2>Eames House</h2>
+            ><figure>
+              <img
+                src="assets/la-eames.webp"
+                width="704px"
+                height="397px"
+                alt="foto van Eames house"
+                title="Eames house"
+              />
+              <figcaption>&copy; Eames Foundation</figcaption>
+            </figure></a
+          >
+          <h2>Eames House</h2>
           <p>Charles en Ray Eames - 1949</p>
         </article>
+      </section>
+      <section id="faq">
+        <div>
+          <button class="collapsible">Hoeveel dagen tot kerstmes?</button>
+          <p class="context">Dat weet ik niet.</p>
+        </div>
+        <div>
+          <button class="collapsible">Hoeveel dagen tot kerstmes?</button>
+          <p class="context">Dat weet ik niet.</p>
+        </div>
+        <div>
+          <button class="collapsible">Hoeveel dagen tot kerstmes?</button>
+          <p class="context">Dat weet ik niet.</p>
+        </div>
       </section>
       <section id="contact">
         <article class="left">
@@ -188,6 +215,7 @@
             <textarea name="message" id="message" rows="6"></textarea><br />
             <input type="submit" value="Send" class="contactbtn" />
           </form>
+         <ul id="messages"></ul>
         </article>
         <article class="right">
           <h2>Contact info</h2>
